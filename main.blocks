@@ -1,0 +1,18 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable type="KIND_SpriteKind" id="(R;[@8BqP,:~N|OGo?vz">Player</variable><variable type="KIND_SpriteKind" id="SdN!JG09zSIG0vPn%pUx">Projectile</variable><variable type="KIND_SpriteKind" id="7OK8Je-|4[/D;lZ^-DS;">Food</variable><variable type="KIND_SpriteKind" id="vkZp_sog#aJiC7v!RmS^">Enemy</variable><variable type="KIND_SpriteKind" id="Btlj+A8kbn[}5.T@2iyu">Gem</variable><variable id="Bt=Vqo+p,3:MWyzzmW=l">mySprite</variable><variable id="`v2_of*@1YCSQ8CCHn@]">Diamond</variable></variables><block type="pxt-on-start" id="$AJx=DoH{4B6!/iMrd`[" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="=k/=2_kgL`esaeXC$,L/"><field name="VAR" id="`v2_of*@1YCSQ8CCHn@]">Diamond</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="ufIBA-^_^m1(D!T`k8y%"><value name="img"><shadow type="screen_image_picker" id="-z3Jc2r#Lq/ixfF%j@Tp"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . f . . . . . . . . . . 
+. . . . f 9 f . . . . . . . . . 
+. . . f 9 9 9 f . . . . . . . . 
+. . f 9 9 9 9 9 f . . . . . . . 
+. . . f 9 9 9 f . . . . . . . . 
+. . . . f 9 f . . . . . . . . . 
+. . . . . f . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"-z3Jc2r#Lq/ixfF%j@Tp"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="h4v^)vX(-!lQp~t-[I`5"><field name="MEMBER">Gem</field></shadow></value></block></value></block></statement></block><block type="keyonevent" id="ZeD*FGbHI%WLqCnY=u6E" x="-10" y="170"><field name="button">controller.B</field><field name="event">ControllerButtonEvent.Pressed</field><statement name="HANDLER"><block type="gamesetbackgroundimage" id="n6_9);9MeCu9^`P:iVhQ"><value name="img"><shadow type="background_image_picker" id="$Z:Rs-IS8DE3z)KFFFMH"><field name="img">assets.image`mine`</field><data>{"commentRefs":[],"fieldData":{"img":"myImages.image1"}}</data></shadow></value></block></statement></block></xml>
